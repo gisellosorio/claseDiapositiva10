@@ -1,5 +1,7 @@
 import java.io.*;
 public class Ejemplo3 {
+
+    //Ejemplo lectura de strings, no caracter por caracter
     public static void main(String arg[]) {
     String línea=null;
     //BufferedReader  clase de Java para leer el texto de una
@@ -24,6 +26,6 @@ public class Ejemplo3 {
         System.err.println(e);
     }
     salida.println("\nLa linea escrita es: ");
-    salida.println(línea);
+    salida.println(línea); //Notar que aquí no tuvimos que convertirlo a char ni tuvimos que crear un objeto STRING
     }
     }
