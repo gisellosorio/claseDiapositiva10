@@ -5,14 +5,14 @@ public class Ejercicio3{
  
     public static void main(String[] args) {
  
-        final String Ubic="C:\\Users\\Ana Maria\\Desktop\\MISIONTIC 2022\\Ruta 2\\CICLO 2\\Semana_4\\Ejemplos\\ejemplo1\\vehiculos11.txt";
+        final String Ubic="C:\\Users\\Gisell\\OneDrive\\Escritorio\\PROYECTOS 2022\\Mision TIC\\Ciclo 2\\Programación básica\\Semana 5\\Clase 13\\claseDiapositiva10#clasediapositiva10-1\\vehiculos11.txt";
  
         String m=JOptionPane.showInputDialog("Matricula del Vehiculo");
         String mar=JOptionPane.showInputDialog("Marca del Vehiculo");
         String dep=JOptionPane.showInputDialog("Tamaño del deposito del Vehiculo");
         String mo=JOptionPane.showInputDialog("Modelo del Vehiculo");
         //Método para convertir una cadena en un doble
-        double tamDep=Double.parseDouble(dep);
+        double tamDep=Double.parseDouble(dep); //dep se debe declarar como String porque el método showInputDialog sólo recibe string
        
         //DataOutputStream
         //Se crea un objeto de la clase DataInputStream vinculándolo a un un objeto FileInputStream para leer desde un archivo
