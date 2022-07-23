@@ -1,8 +1,8 @@
-import java.util.Arrays;
-import java.util.List;
+// import java.util.Arrays;
+// import java.util.List;
 
-import archivoob.ElemenPersona;
-import archivoob.Persona;
+// import archivoob.ElemenPersona;
+// import archivoob.Persona;
 
 //debo importar los elementos para el ejemplo de la diapositiva 18 ojo
 
