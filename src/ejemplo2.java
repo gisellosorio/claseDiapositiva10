@@ -16,6 +16,7 @@ public class ejemplo2
     System.err.println(e);
 }
     System.out.println("\nLa línea escrita es: ");
-    System.out.println(new String(buffer)); //Hay que convertirlo a string porque buffer es tipo byte entonces está en formato ascii
+    //System.out.println(new String(buffer)); //Hay que convertirlo a string porque buffer es tipo byte entonces está en formato ascii
+    System.out.println(buffer);
 }
 }

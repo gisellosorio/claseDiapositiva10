@@ -3,6 +3,8 @@ import java.io.*;
 // las herramientas de entrada y salida, 
 //* todas las clases de java.io
 
+//Ejemplo lectura caracter a caracter
+
 public class Ejemplo1
 {
 public static void main(String args[]) 
