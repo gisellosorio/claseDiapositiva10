@@ -8,8 +8,9 @@
 
 public class App {
     public static void main(String[] args) throws Exception {
-        // var archivo=new Ejemplo4();
-        // archivo.escribir("ejemploG61");
+        var archivo=new Ejemplo4();
+        //archivo.escribir("ejemploG18"); //Si no se le pone la extensión, sale el error El documento no existe.
+        archivo.escribir("ejemploG18_comma.txt");
 
         // var ep=new ElemenPersona();
         // //puedo generar personas.dat, personas.txt, personas.obj
