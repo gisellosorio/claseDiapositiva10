@@ -1,5 +1,7 @@
 import java.io.File;
 import java.util.StringTokenizer;
+//Ejemplo lectura de archivo caracter a caracter desde una ruta
+
 //separa una cadena de caracteres en elementos o tokens.
 //Token cadena de caracteres que tiene un significado coherente 
 //Ejemplos de tokens, palabras clave (if, while, int,...), identificadores, números, signos.
@@ -36,6 +38,6 @@ public class Ejemplo5 {
    } 
 public static void main(String[] args) throws IOException{
     //leer("C:\\Users\\Ana Maria\\Documents\\UTP_MINTIC\\Ciclo 2\\Unidad 4\\Ejemplos\\Clase10\\ejemplo1.txt");
-    leer("C:\\Users\\Ana Maria\\Desktop\\MISIONTIC 2022\\Ruta 2\\CICLO 2\\Semana_4\\Ejemplos\\ejemplo1\\ejemploG50.txt");
+    leer("C:\\Users\\Gisell\\Documents\\GitHub\\claseDiapositiva10#clasediapositiva10-1\\ejemploG18.txt");
 }
 }
