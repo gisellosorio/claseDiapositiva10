@@ -11,7 +11,7 @@ import java.util.List;
 public class ElemenPersona {
     //Creamos dos metodos uno para guardar
     //otro para cargar
-    public void guardarP(String archivo, List<Persona> personas)
+    public void guardarP(String archivo, List<Persona> personas) //Entrada dinámica en forma de lista
     {
         // como crear un archivo de objetos flujo de salida
         // 
@@ -20,7 +20,7 @@ public class ElemenPersona {
             // new FileOutputStream(archivo) creamos un fujo de salida a disco, 
             //pasándole el nombre del archivo en disco o un objeto de la clase File
             // ObjectOutputStream El flujo de salida es el que procesa los datos 
-            var obs=new ObjectOutputStream(new FileOutputStream(archivo));
+            var obs=new ObjectOutputStream(new FileOutputStream(archivo)); //Esto es para que la salida se pueda guardar en forma de archivo
             //por cada uno de los elementos de la lista de Persona
             //se obtiene el objeto, se lo paso al flujo de salida para escribir
             for (Persona persona: personas)
@@ -37,13 +37,13 @@ public class ElemenPersona {
     public List<Persona> cargarPersonas(String archivo)
     {
         List<Persona> personas=new ArrayList<>();
-        Persona persona;
+        Persona persona; //Creación del objeto persona de la clase serializable Persona.
         try {
             //elementos de salida, flujo de entrada
             //// new FileOutputStream(archivo) creamos un fujo de entrada a disco, 
             //pasándole el nombre del archivo en disco o un objeto de la clase File
             // ObjectInputStream es el que procesa los datos 
-                ObjectInputStream ois=new ObjectInputStream(new FileInputStream(archivo));
+                ObjectInputStream ois=new ObjectInputStream(new FileInputStream(archivo)); 
                 //realiza la deserialización de los objetos de una clase. Este método lee 
                 //el flujo de entrada y reconstruye los objetos de dicha clase.
                 while ((persona=(Persona) ois.readObject())!= null){

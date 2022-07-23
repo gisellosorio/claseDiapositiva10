@@ -1,7 +1,9 @@
 package archivoob;
 import java.io.Serializable;
 
-public class Persona implements Serializable {
+//Ejemplo librería Serializable
+
+public class Persona implements Serializable { //Ojo, va a implementar una clase serializable, o sea que los objetos creados pueden ser serializados
      
     private String dni;
     private String nombre;
