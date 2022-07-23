@@ -8,10 +8,12 @@ public class Ejemplo1
 public static void main(String args[]) 
 {
     int numBytes = 0;// variable de entrada entera
-    char caracter; //
+    //char caracter; //
+    int caracter;
     System.out.println("\nEscribe el texto: ");
 try {// dentro del bloque de las llaves puede existir una excepcion
     do {
+        //Si no obligamos que esté en char, tendremos el ascii del texto  letra por letra
         caracter = (char)System.in.read();//Hola chicos\n
         //convertir la lectura de bytes, a un caracter
         //caracter =H o l a   c h i c o  s  \n
